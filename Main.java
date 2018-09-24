@@ -49,7 +49,8 @@ public class Main {
 			new Runnable() {
 				@Override
 				public void run() {
-					parseFile("./src/note.txt");
+					// File must contain your english to be translated into Pig Latin
+					parseFile("english_file.txt");
 				}
 			}
 		);
